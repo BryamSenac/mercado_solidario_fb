@@ -1,0 +1,70 @@
+body {
+    width:100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #F6EEFB;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    gap: 1vw; /* Espaçamento reduzido entre os cartões */
+    max-width: 90vw; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+    height: 75vh;
+}
+
+.product {
+    width: 15vw;  /* Largura do cartão */
+    height: 25vh; /* Altura do cartão */
+    background-color: #A792D1;
+    border: 1px solid #A792D1;
+    border-radius: 20px;
+    padding: 2vh; /* Padding do cartão */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-left: 14vw; /* Sem margens para evitar espaçamento indesejado */
+    transition: transform 0.3s ease;
+}
+
+.product img {
+    max-width: 100vw;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product p {
+    color: #020202;
+}
+
+.nav-buttons {
+    margin-top: 1vw;
+}
+
+.nav-buttons button {
+    width: 2vw;
+    height: 3vh;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background-color: #8000b3;
+}
+
+.product:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card em 5% */
+    z-index: 1; /* Para garantir que o card fique acima dos outros */
+}
