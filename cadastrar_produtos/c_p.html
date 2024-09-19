@@ -1,1 +1,31 @@
-vqbqowbfoqfqfqwhfoq
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Produto</title>
+  <link rel="stylesheet" href="/cadastrar_produtos/css/c_p.css">
+</head>
+<body>
+
+    <div id="filtro_roxo"></div>
+  <div class="container">
+    <h1>Cadastro de Produto</h1>
+    <form action="#" method="POST" enctype="multipart/form-data">
+      <label for="nome-produto">Nome do Produto:</label>
+      <input type="text" id="nome-produto" name="nome-produto" placeholder="Digite o nome do produto" required>
+
+      <label for="descricao-produto">Descrição do Produto:</label>
+      <textarea id="descricao-produto" name="descricao-produto" rows="4" placeholder="Digite a descrição do produto" required></textarea>
+
+      <label for="local-produto">Local ou Endereço:</label>
+      <input type="text" id="local-produto" name="local-produto" placeholder="Digite o local ou endereço" required>
+
+      <label for="imagem-produto">Imagem do Produto:</label>
+      <input type="file" id="imagem-produto" name="imagem-produto" accept="image/*" required>
+
+      <input type="submit" value="Cadastrar Produto">
+    </form>
+  </div>
+</body>
+</html>
