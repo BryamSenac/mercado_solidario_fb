@@ -1,0 +1,16 @@
+@import url(./header.css);
+@import url(./footer.css);
+
+#produtos {border: 0%;
+    width: 19vw;
+    height: auto;
+    border: none;
+    
+   
+    align-items: center;
+    position: relative;
+    object-fit: cover;}
+   
+body {
+    background-color: #DFC8EB;
+}
