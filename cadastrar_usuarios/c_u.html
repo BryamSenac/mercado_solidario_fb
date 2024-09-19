@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produto</title>
+    <link rel="stylesheet" href="/cadastrar_usuarios/css/body.css">
+</head>
+
+<body>
+    <div id="filtro_roxo"></div>
+    <div class="container">
+        <h1>Cadastre-se</h1>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <label for="nome-produto">Nome:</label>
+            <input type="text" id="nome-produto" name="nome-produto"  placeholder="Escreva seu nome" required>
+
+            <label for="descricao-produto">Senha:</label>
+            <textarea id="descricao-produto" name="descricao-produto" rows="1" placeholder="Digite sua senha"
+                required></textarea>
+
+            <label for="descricao-produto">Confirmar Senha:</label>
+            <textarea id="descricao-produto" name="descricao-produto" rows="1" placeholder="Confirme sua senha"
+                required></textarea>
+
+
+            <label for="data-nascimento">Data de Nascimento:</label>
+            <div class="data-input">
+                <input type="number" id="dia-nascimento" name="dia-nascimento" placeholder="DD" min="1" max="31"
+                    required>
+                <span>/</span>
+                <input type="number" id="mes-nascimento" name="mes-nascimento" placeholder="MM" min="1" max="12"
+                    required>
+                <span>/</span>
+                <input type="number" id="ano-nascimento" name="ano-nascimento" placeholder="AAAA" min="1900" required>
+            </div>
+
+
+
+            <input type="submit" value="Cadastrar Produto">
+        </form>
+    </div>
+</body>
+
+</html>
