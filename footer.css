@@ -1,36 +1,41 @@
- footer{
-    height: 15vw;
-    width: 100vw;
-    background-color: #DFC8EB;
+footer {
+    height: 15vw;
+    width: 100vw;
+    background-color: #DFC8EB;
 }
-#info{
-    position: absolute;
-    right: 17vw;
-    height: 1vw;
+
+#info {
+    position: absolute;
+    right: 17vw;
+    height: 1vw;
 }
-#Como{
-    position: absolute;
-    right: 17vw;
-    top: 4vw;
+
+#Como {
+    position: absolute;
+    right: 17vw;
+    top: 4vw;
 }
-#contato{
-    position: absolute;
-    right: 4vw;
-    top: 2vw;
+
+#contato {
+    position: absolute;
+    right: 4vw;
+    top: 2vw;
 }
-#termosecondições{
-    position: absolute;
-    right: 17vw;
-    top: 2vw;
+
+#termosecondições {
+    position: absolute;
+    right: 17vw;
+    top: 2vw;
 }
-#Trabalheconosco{
-    position: absolute;
-    right: 2vw;
-    top: 0,5vw;
+
+#Trabalheconosco {
+    position: absolute;
+    right: 2vw;
+    top: 0, 5vw;
 }
-#acss{
-position: absolute;
-right: 2vw;
-top: 6vw;
-}
+
+#acss {
+    position: absolute;
+    right: 2vw;
+    top: 6vw;
 }
