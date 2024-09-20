@@ -7,36 +7,67 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #login_area {
-    width: 70vw;
+    width: 60vw;
     height: 80vh;
     background-color: rgba(131, 130, 209, 1);
     border-radius: 5vw;
-
-
+    display: flex;
+    align-items: center;
 }
+
+
+#img_login {
+    width: 45vw;
+    height: 80vh;
+    border-top-left-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+    background-image: url(./img/tela\ certa.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#login_inputs{
+    width: 25vw;
+    height: 70vh;
+    border-top-right-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+    background-color: #8382D1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 input {
     padding: 15px;
     border: none;
     outline: none;
     font-size: 15px;
-    border: 1px solid #000000; 
-    border-radius: 10px; 
-    padding: 10px; 
-    width: 200px; 
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
 }
-button{
-border: none; 
-border-radius: 10px; 
-padding: 10px 20px;
-border: 1px solid #000000; 
-color: rgb(0, 0, 0); 
-font-size: 16px;
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
 }
