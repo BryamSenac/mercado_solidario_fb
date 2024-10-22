@@ -19,13 +19,36 @@ body {
 }
 
 .container {
+    display: flex; /* Flexbox para organizar imagem e formulário lado a lado */
     background-color: rgba(131, 130, 209, 1);
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 5vw;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 800px;
-    border-radius: 1vw;
+    width: 60vw;
+    height: 80vh;
+}
+
+.imagem-container {
+    width: 30vw; /* A imagem ocupará 30% da largura */
+    height: 80vh; /* A altura será 80% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-container img {
+    width: 30vw;
+    height: 80vh;
+    border-radius: 5vw 0 0 5vw;
+    padding: 0 0 2vw 0;
+}
+
+.form-container {
+    width: 30vw;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Alinha o conteúdo verticalmente */
 }
 
 h1 {
@@ -41,11 +64,10 @@ label {
 
 input[type="text"],
 input[type="number"],
-textarea,
-input[type="file"] {
-    width: 100%;
+textarea {
+    width: 80%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 40px; /* Aumenta o espaçamento entre os itens do formulário */
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -53,7 +75,7 @@ input[type="file"] {
 .data-input {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 30px; /* Aumenta o espaçamento entre os itens do formulário */
 }
 
 .data-input input {
@@ -71,7 +93,7 @@ input[type="file"] {
 }
 
 input[type="submit"] {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     background-color: rgba(217, 217, 217, 1);
     color: black;
