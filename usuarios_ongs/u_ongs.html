@@ -11,22 +11,29 @@
 <body>
     <div id="filtro_roxo"></div>
     <div class="container">
-        <h1>Cadastre-se</h1>
-        <form action="#" method="POST" enctype="multipart/form-data">
-            <label for="nome-produto">CNPJ:</label>
-            <input type="text" id="nome-produto" name="nome-produto"  placeholder="digite seu CNPJ" required>
+        <!-- Div para a imagem à esquerda -->
+        <div class="imagem-container">
+            <img src="./img/Leonardo_Lightning_XL_create_anything_that_is_related_to_some_1.jpg" >
+        </div>
 
-            <label for="descricao-produto">CEP:</label>
-            <textarea id="descricao-produto" name="descricao-produto" rows="1" placeholder="Digite seu CEP"
-                required></textarea>
+        <!-- Formulário à direita -->
+        <div class="form-container">
+            <h1>Cadastre-se</h1>
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <label for="nome-produto">CNPJ:</label>
+                <input type="text" id="nome-produto" name="nome-produto" placeholder="Digite seu CNPJ" required>
 
-            <label for="descricao-produto">Fantasia:</label>
-            <textarea id="descricao-produto" name="descricao-produto" rows="1" placeholder="Digite seu nome"
-                required></textarea>
+                <label for="descricao-produto">CEP:</label>
+                <textarea id="descricao-produto" name="descricao-produto" rows="1" placeholder="Digite seu CEP" required></textarea>
 
-            <input type="submit" value="Cadastrar ong">
-        </form>
+                <label for="descricao-produto">Fantasia:</label>
+                <textarea id="descricao-produto" name="descricao-produto" rows="1" placeholder="Digite seu nome" required></textarea>
+
+                <input type="submit" value="Cadastrar ONG">
+            </form>
+        </div>
     </div>
 </body>
+
 
 </html>
