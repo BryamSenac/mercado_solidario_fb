@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    height: 220vh;
+    height: max-content;
 }
 
 .linha-separadora {
