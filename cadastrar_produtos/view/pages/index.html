@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/layout/section_layout.css">
+    <title>Cadastro de Produto</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div id="container_logo">
+                <div id="logo">
+                    <img src="https://cdn-icons-png.flaticon.com/512/7782/7782326.png" alt="logo">
+                </div>
+            </div>    
+            <form>
+                <label for="photos">Adicionar Fotos</label>
+                <input type="file" id="photos" name="photos" multiple required>
+                
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="description">Descrição</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+                
+                <label for="delivery-date">Data de Entrega</label>
+                <input type="date" id="delivery-date" name="delivery-date" required>
+                
+                <label for="dimensions">Dimensões (cm)</label>
+                <input type="text" id="dimensions" name="dimensions" required>
+                
+                <label for="optional-info">Informações Opcionais</label>
+                <textarea id="optional-info" name="optional-info" rows="2" class="optional"></textarea>
+                
+                <div id="buttons_save">
+                    <button type="button" class="button" onclick="alert('Cadastro Cancelado')">Cancelar</button>
+                    <button type="submit" class="button">enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>    
+</body>
+</html>
+    

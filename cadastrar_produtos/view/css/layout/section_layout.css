@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+
+body {
+    font-family: 'Supermercado One', Arial, sans-serif;
+    background-color: #DFC8EB;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+#container_logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+    width: 100%;
+}
+
+#logo img {
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    height: 60px;
+    width: 60px;
+}
+
+.container {
+    background-color: #8382D1;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+    width: 80%;
+}
+h1 {
+    color: #F6EEFB;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #F6EEFB;
+}
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #F6EEFB;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+#buttons_save {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-family: 'Lexend', 'Arial', Courier, monospace;
+    background-color: #F6EEFB;
+    color: #8382D1;
+    border: none;
+    margin: 1vh;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.optional {
+    font-size: 0.9em;
+    color: #8382D1;
+}
