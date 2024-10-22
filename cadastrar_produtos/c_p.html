@@ -7,25 +7,34 @@
   <link rel="stylesheet" href="/cadastrar_produtos/css/c_p.css">
 </head>
 <body>
-
-    <div id="filtro_roxo"></div>
+  <div id="filtro_roxo"></div>
   <div class="container">
-    <h1>Cadastro de Produto</h1>
-    <form action="#" method="POST" enctype="multipart/form-data">
-      <label for="nome-produto">Nome do Produto:</label>
-      <input type="text" id="nome-produto" name="nome-produto" placeholder="Digite o nome do produto" required>
+    <!-- Div para a imagem à esquerda -->
+    <div class="imagem-container">
+      <img src="./img/Leonardo_Lightning_XL_A_heartwarming_scene_of_a_diverse_group_2.jpg" alt="Imagem do Produto">
+    </div>
 
-      <label for="descricao-produto">Descrição do Produto:</label>
-      <textarea id="descricao-produto" name="descricao-produto" rows="4" placeholder="Digite a descrição do produto" required></textarea>
+    <!-- Formulário à direita -->
+    <div class="form-container">
+      <h1>Cadastro de Produto</h1>
+      <form action="#" method="POST" enctype="multipart/form-data">
+        <label for="nome-produto">Nome do Produto:</label>
+        <input type="text" id="nome-produto" name="nome-produto" placeholder="Digite o nome do produto" required>
 
-      <label for="local-produto">Local ou Endereço:</label>
-      <input type="text" id="local-produto" name="local-produto" placeholder="Digite o local ou endereço" required>
+        <label for="descricao-produto">Descrição do Produto:</label>
+        <textarea id="descricao-produto" name="descricao-produto" rows="4" placeholder="Digite a descrição do produto" required></textarea>
 
-      <label for="imagem-produto">Imagem do Produto:</label>
-      <input type="file" id="imagem-produto" name="imagem-produto" accept="image/*" required>
+        <label for="local-produto">Local ou Endereço:</label>
+        <input type="text" id="local-produto" name="local-produto" placeholder="Digite o local ou endereço" required>
 
-      <input type="submit" value="Cadastrar Produto">
-    </form>
+        <label for="imagem-produto">Imagem do Produto:</label>
+        <input type="file" id="imagem-produto" name="imagem-produto" accept="image/*" required>
+
+        <input type="submit" value="Cadastrar Produto">
+      </form>
+    </div>
   </div>
 </body>
+
+
 </html>

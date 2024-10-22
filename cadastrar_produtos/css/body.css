@@ -1,67 +1,87 @@
-
 body {
-    font-family: Arial, sans-serif;
-    background-image: url(/cadastrar_produtos/img/center_heart.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  font-family: Arial, sans-serif;
+  background-image: url(/cadastrar_produtos/img/center_heart.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
-    background-color: rgba(246, 238, 251, 1);
-    padding: 20px;
-    border-radius: 5vw;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 60vw;
-    max-width: 40vw;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  label {
-    font-size: 14px;
-    margin-bottom: 5px;
-    display: block;
-  }
-  
-  input[type="text"],
-  textarea,
-  input[type="file"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(131, 130, 209, 1);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: rgb(126, 125, 223);
-  }
+  display: flex; 
+  width: 60vw;
+  height: 80vh;
+  background-color: rgba(131, 130, 209, 1);
+  border-radius: 5vw;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-  #filtro_roxo{
-    background-color:rgba(167, 146, 209, 0.8);
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: -1;
-  }
+.imagem-container {
+  width: 30vw; /* A imagem ocupará 30% da largura do container */
+  height: 80vh; /* A altura será 80% do container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem-container img {
+  width: 30vw;
+  height: 80vh;
+  border-radius: 5vw 0 3px 5vw;
+  padding: 0 0 2vw 0;
+}
+
+.form-container {
+  width: 70vw; /* O formulário ocupará o restante, 70% da largura */
+  padding-left: 40px; /* Espaçamento entre a imagem e o formulário */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 50px; /* Aumento de 30% do espaçamento */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 80%;
+  padding: 10px;
+  background-color: rgb(97, 95, 214);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(93, 92, 167);
+}
+
+#filtro_roxo {
+  background-color: rgba(167, 146, 209, 0.8);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
