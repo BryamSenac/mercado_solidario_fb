@@ -1,5 +1,5 @@
 body {
-    width:100vw;
+    width: 100vw;
     height: 90vh;
     overflow-x: hidden;
     background-color: #F6EEFB;
@@ -11,7 +11,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(3, 20vw);
-    gap: 1vw; /* Espaçamento reduzido entre os cartões */
+    gap: 2vw; /* Espaçamento reduzido entre os cartões */
     max-width: 90vw; /* Largura máxima do contêiner */
     margin: 10vh auto; /* Centraliza o contêiner horizontalmente */
     height: 75vh;
@@ -23,7 +23,7 @@ body {
     background-color: #A792D1;
     border: 1px solid #A792D1;
     border-radius: 20px;
-    padding: 2vh; /* Padding do cartão */
+    padding: 5vh; /* Padding do cartão */
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -46,7 +46,7 @@ body {
 }
 
 .nav-buttons {
-    margin-top: 1vw;
+    margin-top: 0.3vw;
 }
 
 .nav-buttons button {
@@ -58,6 +58,7 @@ body {
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
+    
 }
 
 .nav-buttons button:hover {
@@ -67,4 +68,21 @@ body {
 .product:hover {
     transform: scale(1.05); /* Aumenta o tamanho do card em 5% */
     z-index: 1; /* Para garantir que o card fique acima dos outros */
+}
+
+/* Estilização do botão de contato */
+.contact-button {
+    
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 8vw; /* Largura do botão */
+    margin-top: 0.5vh;
+}
+
+.contact-button:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
 }

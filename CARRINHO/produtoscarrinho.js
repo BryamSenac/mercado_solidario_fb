@@ -106,6 +106,11 @@ function initializeProducts() {
         nextButton.className = 'next';
         nextButton.innerHTML = '&#10095;';
         nextButton.onclick = () => changeImage(1, index);
+
+        const contactButton = document.createElement('button');
+        contactButton.className = 'contact-button';
+        contactButton.textContent = 'Contato';
+        contactButton.onclick = () => alert(`Entrar em contato sobre ${title}`); // Exemplo de ação
         
         // Montar a estrutura
         navButtons.appendChild(prevButton);
@@ -114,6 +119,7 @@ function initializeProducts() {
         productElement.appendChild(titleElement);
         productElement.appendChild(descriptionElement);
         productElement.appendChild(navButtons);
+        productElement.appendChild(contactButton);
     });
 }
 
