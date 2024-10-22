@@ -1,0 +1,24 @@
+section {
+    height: 90vh;
+    width: 100vw;
+}
+
+#box_title_campanhas {
+    text-align: center;
+    padding: 1vh;
+    margin-top: 35vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#campanhas_title {
+    width: 20vw;
+    
+    background: rgb(255,129,255);
+    background: linear-gradient(180deg, rgba(255,129,255,1) 20%, rgba(197,122,235,1) 75%);
+    
+    z-index: 1;
+}
