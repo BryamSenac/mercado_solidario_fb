@@ -1,6 +1,6 @@
 body {
     width:100vw;
-    height: 100vh;
+    height: 90vh;
     overflow-x: hidden;
     background-color: #F6EEFB;
     font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@ body {
     grid-template-columns: repeat(3, 20vw);
     gap: 1vw; /* Espaçamento reduzido entre os cartões */
     max-width: 90vw; /* Largura máxima do contêiner */
-    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+    margin: 10vh auto; /* Centraliza o contêiner horizontalmente */
     height: 75vh;
 }
 

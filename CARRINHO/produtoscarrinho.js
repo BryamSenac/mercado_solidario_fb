@@ -68,10 +68,12 @@ const products = [
         description: "Descrição breve do produto 9.",
         images: [
             "https://via.placeholder.com/150/581845", // Imagem 1
-            "https://via.placeholder.com/150/900C3F"  // Imagem 2
+            "https://via.placeholder.com/150/900C3F", // Imagem 2
+            "https://via.placeholder.com/150/FFC300"  // Imagem 3 
         ],
     }
 ];
+
 function initializeProducts() {
     const productElements = document.querySelectorAll('.product');
 
@@ -104,7 +106,7 @@ function initializeProducts() {
         nextButton.className = 'next';
         nextButton.innerHTML = '&#10095;';
         nextButton.onclick = () => changeImage(1, index);
-
+        
         // Montar a estrutura
         navButtons.appendChild(prevButton);
         navButtons.appendChild(nextButton);
@@ -125,10 +127,10 @@ function changeImage(direction, productIndex) {
     if (newIndex < 0) newIndex = images.length - 1;
     if (newIndex >= images.length) newIndex = 0;
 
-    // Adiciona um pequeno atraso antes de trocar a imagem
+    // Troca a imagem
     setTimeout(() => {
         productImage.src = images[newIndex];
-    }, 0); // 200ms de atraso
+    }, 0); // 0ms de atraso
 }
 
 // Inicializa os produtos ao carregar a página
