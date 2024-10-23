@@ -12,12 +12,17 @@
 .banner {
     width: 90vw;
     height: 35vh;
-    margin: 0 5vw;
+    margin: 1vh 5vw;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
 }
 
 #btn_banners {
     width: 16vw;
-    height: 5vh;
+    height: 6vh;
 
     position: absolute;
     left: 42vw;
@@ -29,18 +34,26 @@
     align-items: center;
 }
 
-.btns_banner {
+.btn_banner {
     border: none;
-    width: 2.5vw;
-    height: vh;
-    border-radius: 50%;
-    background-color: rgb(21, 120, 207);
+    width: 8vw;
+    margin: 0 1vh;
+    height: 2vh;
+    border-radius: 1vh;
+    background-color: #A792D1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
 
-.btns_banner:hover {
+.btn_banner:hover {
     cursor: pointer;
-    width: 7vw;
-    height: 6vh;
+    background-color: rgb(255,129,255);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn_banner:focus, .btn_banner:active {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 10px rgba(33, 150, 243, 0);
 }
 
 #titulo1{

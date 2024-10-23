@@ -4,10 +4,12 @@ section {
 }
 
 #box_title_campanhas {
+    font-family: 'Supermercado One', 'Courier New', Courier, monospace;
     text-align: center;
     padding: 1vh;
     margin-top: 35vh;
     width: 98vw;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +17,10 @@ section {
 }
 
 #campanhas_title {
-    width: 20vw;
+    width: 25vw;
+    border-radius: 1.5vh;
+    font-size: 20px;
+    font-weight: lighter;
     
     background: rgb(255,129,255);
     background: linear-gradient(180deg, rgba(255,129,255,1) 20%, rgba(197,122,235,1) 75%);

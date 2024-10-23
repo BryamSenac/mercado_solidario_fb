@@ -3,6 +3,10 @@
 @import url(banner.css);
 @import url(section.css);
 @import url(cards.css);
+@import url(destaque.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Supermercado+One&display=swap');
+
 
 body{
     margin: 0;
