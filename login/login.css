@@ -3,7 +3,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("login/img/tela certa 2.png");
+    background-image: url(./img/tela\ certa\ 2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -24,7 +24,7 @@ body {
 }
 
 .imagem-container {
-    width: 38vw; /* A imagem ocupará 30% da largura */
+    width: 32vw; /* A imagem ocupará 30% da largura */
     height: 80vh; /* A altura será 80% */
     display: flex;
     justify-content: center;
@@ -32,14 +32,14 @@ body {
 }
 
 .imagem-container img {
-    width: 30vw;
-    height: 80vh;
+    width: 47vw;
+    height: 84vh;
     border-radius: 5vw 0 0 5vw;
     padding: 0 0 0 0;
 }
 
 .form-container {
-    width: 30vw;
+    width: 35vw;
     padding-left: 40px;
     display: flex;
     flex-direction: column; /* Organiza os elementos em coluna */
@@ -79,7 +79,7 @@ textarea {
     margin-right: 5px;
     text-align: center;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 4px; 
 }
 
 .data-input span {
@@ -103,7 +103,7 @@ input[type="submit"]:hover {
 }
 
 #filtro_roxo {
-    background-color: rgba(167, 146, 209, 0.8);
+  
     width: 100vw;
     height: 100vh;
     position: fixed;
