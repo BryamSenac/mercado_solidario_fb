@@ -1,0 +1,17 @@
+footer {
+    /* background-color: #587370; */
+    background-color: rgba(177, 135, 255, 0.815);
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    border-top: solid 1px rgba(148, 90, 255, 0.815);
+    text-align: center;
+    color: aliceblue;
+    font-size: 3vh;
+    font-family: sans-serif;
+}

@@ -7,9 +7,6 @@ body {
     width: 100vw;
     background-color: #F6EEFB;
     margin: 0;
-}
-
-footer {
-    height: 15vh;
-    width: 100vw;
+    top: 0;
+    bottom: 0;
 }
