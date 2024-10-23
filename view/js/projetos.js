@@ -1,8 +1,7 @@
 import { trocarBanner } from "../../controller/banner.js";
-import { initializeProducts  } from "../../controller/carregarCards.js";
+import { initializeProducts  } from "./initializeProducts.js";
 
 window.trocarBanner = trocarBanner;
-window.initializeProducts = initializeProducts;
 
 document.addEventListener('DOMContentLoaded', () => {
     initializeProducts();

@@ -1,8 +1,9 @@
 #campanhas {
     display: grid;
-    grid-template-columns: 20vw 20vw 20vw;
-    gap: 2vw; /* Espaçamento reduzido entre os cartões */
+    grid-template-columns: 21vw 21vw 21vw;
+    gap: 4vw; /* Espaçamento reduzido entre os cartões */
     height: max-content;
+    justify-content: center; /* Centraliza as colunas */
 }
 
 .product {
@@ -11,12 +12,10 @@
     background-color: #A792D1;
     border: 1px solid #A792D1;
     border-radius: 20px;
-    margin: 5vh;
     padding: 5vh; /* Padding do cartão */
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
-    margin-left: 14vw; /* Sem margens para evitar espaçamento indesejado */
     transition: transform 0.3s ease;
 }
 
@@ -47,7 +46,6 @@
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
-    
 }
 
 .nav-buttons button:hover {
@@ -61,7 +59,6 @@
 
 /* Estilização do botão de contato */
 .contact-button {
-    
     padding: 8px 12px;
     background-color: #007BFF;
     color: white;
