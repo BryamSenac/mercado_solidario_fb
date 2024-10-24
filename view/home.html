@@ -10,7 +10,28 @@
     <link rel="stylesheet" href="./css/home.css">
 </head>
 <body>
-    <header style="height: 10vh; background-color: #8382D1; margin-bottom: 10px;">
+    <header>
+        <div class="div-content">    
+            <div class="div-header-logo">
+                <img src="./../assets/img/logo.png" alt="" id="img-logo">
+            </div>
+        <div class="barra-de-pesquisa-buttons">
+            <div class="div-barra-pesquisa">
+                <div class="search-row">
+                    <input id="inputBarraPesquisa" type="text" class="search-txt" placeholder="Buscar">
+                </div>
+                    <div class="button-row">
+                        <button class="seleções-barra-de-pesquisa">Campanhas</button>
+                            <button class="seleções-barra-de-pesquisa">Supermercado</button>
+                                <button class="seleções-barra-de-pesquisa">Moda</button>
+                    </div>
+            </div>
+        </div>
+            <div class="end-header">
+                <img src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png" alt="" class="images-header"> <!-- mudar depois -->
+                <img src="https://static.vecteezy.com/system/resources/previews/016/314/413/non_2x/shopping-cart-free-png.png" alt="" class="images-header">
+            </div>
+        </div>
     </header>
     <section>
         <div id="banners">
@@ -22,6 +43,7 @@
             <button class="btn_banner" onclick="trocarBanner(2)"></button>
             <button class="btn_banner" onclick="trocarBanner(3)"></button>
         </div>
+
         <div id="box_title_campanhas">
             <div id="campanhas_title">
                 <h2>Campanhas Em Destaque</h2>
@@ -36,6 +58,24 @@
     </section>
 
     <footer>
+        <hr class="linha-separadora" style="color: gray;">
+        <div id="all_info">
+            <div id="info-1">
+                <p>CNPJ n.º 03.007.331/0001-41 / Av. das Nações Unidas, 
+                    nº 3.003, Bonfim, Osasco/SP - CEP 06233-903 - empresa </p>
+                <h5>Copyright © 2024 Mercado Solidario LTDA.</h5>
+            </div>
+            <div id="info-2">
+                <h4>Trabalhe Conosco</h4>
+                <h4>Contato</h4>
+                <h4>Termos e Condições</h4>
+            </div>
+            <div id="info-3">
+                <h4>Acessibilidade</h4>
+                <h4>Privacidade</h4>
+                <h4>Seguros</h4>
+            </div>
+        </div>
     </footer>
       
 </body>

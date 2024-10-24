@@ -11,6 +11,7 @@
 body{
     margin: 0;
     top: 0;
+    height: max-content;
     overflow-x: hidden;
     background-color: #F6EEFB;
 }
