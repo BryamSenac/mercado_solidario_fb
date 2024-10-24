@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cadastro de Produto</title>
   <link rel="stylesheet" href="/cadastrar_produtos/css/c_p.css">
 </head>
+
 <body>
   <div id="filtro_roxo"></div>
   <div class="container">
-    
+
     <div class="imagem-container">
-      <img src="./img/Leonardo_Lightning_XL_Create_a_visually_striking_and_heartfelt_1.jpg" >
+      <img src="./img/Leonardo_Lightning_XL_A_highquality_candid_photo_of_volunteers_3 (1).jpg">
     </div>
 
-    
+
     <div class="form-container">
       <h1>Cadastro de Produto</h1>
       <form action="#" method="POST" enctype="multipart/form-data">
@@ -22,10 +24,17 @@
         <input type="text" id="nome-produto" name="nome-produto" placeholder="Digite o nome do produto:" required>
 
         <label for="descricao-produto">Descrição do Produto:</label>
-        <input type="text" id="descricao-produto" name="descricao-produto"  placeholder="Digite a descrição do produto:" required></input>
+        <input type="text" id="descricao-produto" name="descricao-produto" placeholder="Digite a descrição do produto:"
+          required></input>
 
         <label for="local-produto">Local ou Endereço:</label>
         <input type="text" id="local-produto" name="local-produto" placeholder="Digite o local ou endereço:" required>
+
+        <label for="Contato">Numero de telefone:</label>
+        <input type="text" id="num_contact" name="doador_contact" placeholder="Digite Seu Numero de Telefone:" required>
+
+        <label for="data-horario-produto">Data e Horário:</label>
+        <input type="datetime-local" id="data-horario-produto" name="data-horario-produto" required>
 
         <label for="imagem-produto">Imagem do Produto:</label>
         <input type="file" id="imagem-produto" name="imagem-produto" accept="image/*" required>
@@ -35,6 +44,5 @@
     </div>
   </div>
 </body>
-
 
 </html>

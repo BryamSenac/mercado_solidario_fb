@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Supermercado One', Arial, sans-serif;
   background-image: url(/cadastrar_produtos/img/center_heart.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -22,8 +24,7 @@ body {
 
 .imagem-container {
   width: 30vw; /* A imagem ocupará 30% da largura do container */
-  height: 80vh; /* A altura será 80% do container */
-  display: flex;
+  height: 100vh; /* A altura será 80% do container */
   justify-content: center;
   align-items: center;
 }
@@ -54,14 +55,16 @@ label {
 input[type="text"],
 textarea,
 input[type="file"] {
+  font-family: 'Lexend', 'Arial', Courier, monospace;
   width: 80%;
   padding: 10px;
-  margin-bottom: 70px; /* Aumento de 30% do espaçamento */
+  margin-bottom: 40px; /* Aumento de 30% do espaçamento */
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
 input[type="submit"] {
+  font-family: 'Lexend', 'Arial', Courier, monospace;
   width: 80%;
   padding: 10px;
   background-color: rgb(97, 95, 214);
@@ -73,9 +76,23 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
+  font-family: 'Lexend', 'Arial', Courier, monospace;
   background-color: rgb(93, 92, 167);
 }
+input[type="datetime-local"], 
+input[type="file"] {
 
+  font-family: 'Lexend', 'Arial', Courier, monospace;
+  width: 80%;
+  padding: 10px;
+  background-color: rgb(97, 95, 214);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 #filtro_roxo {
   background-color: rgba(167, 146, 209, 0.8);
   width: 100vw;
