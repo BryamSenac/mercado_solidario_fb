@@ -55,6 +55,7 @@ label {
 }
 input[type="text"],
 input[type="date"],
+input[type="tel"],
 textarea {
     width: 95%;
     padding: 10px;
@@ -88,4 +89,9 @@ input[type="file"] {
 .optional {
     font-size: 0.9em;
     color: #8382D1;
+}
+
+hr {
+    border: 1px solid #DFC8EB;
+    border-radius: 1px;
 }
