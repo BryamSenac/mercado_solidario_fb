@@ -53,6 +53,9 @@ body {
 }
 
 h1 {
+    position: absolute;
+    left: 59vw;
+    top: 20vh;
     text-align: center;
     margin-bottom: 20px;
 }
