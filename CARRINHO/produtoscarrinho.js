@@ -133,8 +133,13 @@ function initializeProducts() {
     const productElements = document.querySelectorAll('.product');
 
     productElements.forEach((productElement, index) => {
+        if (!products[index]) return; // Ignora se não houver produto correspondente
+
         const { title, description, images } = products[index];
         
+        // Limpa o conteúdo anterior
+        productElement.innerHTML = '';
+
         // Criar elementos apenas uma vez
         const img = document.createElement('img');
         img.src = images[0]; // Imagem inicial
@@ -165,8 +170,8 @@ function initializeProducts() {
         const contactButton = document.createElement('button');
         contactButton.className = 'contact-button';
         contactButton.textContent = 'Contato';
-        contactButton.onclick = () => alert(`Entrar em contato sobre ${title}`); // Exemplo de ação
-        
+        contactButton.onclick = () => alert(`Entrar em contato sobre ${title}`);
+
         // Montar a estrutura
         navButtons.appendChild(prevButton);
         navButtons.appendChild(nextButton);
@@ -177,7 +182,6 @@ function initializeProducts() {
         productElement.appendChild(contactButton);
     });
 }
-
 function changeImage(direction, productIndex) {
     const productImage = document.querySelectorAll('.product-image')[productIndex];
     const currentImageSrc = productImage.src;

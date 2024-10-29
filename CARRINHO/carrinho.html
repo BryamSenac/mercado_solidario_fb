@@ -46,12 +46,12 @@
             <div class="product" data-index="5"></div>
             <div class="product" data-index="6"></div>
             <div class="product" data-index="7"></div>
+            <div class="product" data-index="8"></div>
             <div class="product" data-index="9"></div>
             <div class="product" data-index="10"></div>
             <div class="product" data-index="11"></div>
             <div class="product" data-index="12"></div>
             <div class="product" data-index="13"></div>
-            <div class="product" data-index="14"></div>
         </div>
 
         <!-- Botão para abrir o painel -->
@@ -62,6 +62,10 @@
             <div class="map-container">
                 <!-- O mapa da API do Google será colocado aqui -->
             </div>
+            <form id="search-form" action="/search" method="GET">
+                <input type="text" id="search-input" placeholder="Pesquisar..." name="query" required>
+                <button type="submit" id="search-button">Buscar</button>
+            </form>
         </div>
 
         <script src="funcionalidades.js"></script>
