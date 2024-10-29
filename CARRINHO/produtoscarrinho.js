@@ -193,6 +193,8 @@ function changeImage(direction, productIndex) {
         productImage.src = images[newIndex];
     }, 0); // 0ms de atraso
 }
+document.addEventListener('DOMContentLoaded',initializeProducts);
+
 
 // Inicializa os produtos ao carregar a página
 initializeProducts();
