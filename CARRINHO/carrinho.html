@@ -5,31 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho</title>
-    <link rel="stylesheet" href="./css/carrinho.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/central.css">
+    
 </head>
 
 <header>
-    <div class="div-content">    
+    <div class="div-content">
         <div class="div-header-logo">
             <img src="./../image-removebg-preview (3).png" alt="" id="img-logo">
         </div>
-    <div class="barra-de-pesquisa-buttons">
-        <div class="div-barra-pesquisa">
-            <div class="search-row">
-                <input type="text" class="search-txt" placeholder="Buscar">
-            </div>
+        <div class="barra-de-pesquisa-buttons">
+            <div class="div-barra-pesquisa">
+                <div class="search-row">
+                    <input type="text" class="search-txt" placeholder="Buscar">
+                </div>
                 <div class="button-row">
                     <button class="seleções-barra-de-pesquisa">Campanhas</button>
-                        <button class="seleções-barra-de-pesquisa">Supermercado</button>
-                            <button class="seleções-barra-de-pesquisa">Moda</button>
+                    <button class="seleções-barra-de-pesquisa">Supermercado</button>
+                    <button class="seleções-barra-de-pesquisa">Moda</button>
                 </div>
+            </div>
         </div>
-    </div>
         <div class="end-header">
             <img src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png" alt="" class="images-header">
-            <img src="https://static.vecteezy.com/system/resources/previews/016/314/413/non_2x/shopping-cart-free-png.png" alt="" class="images-header">
+            <img src="https://static.vecteezy.com/system/resources/previews/016/314/413/non_2x/shopping-cart-free-png.png"
+                alt="" class="images-header">
         </div>
     </div>
 </header>
@@ -54,14 +54,27 @@
             <div class="product" data-index="14"></div>
         </div>
 
+        <!-- Botão para abrir o painel -->
+        <div class="arrow" onclick="toggleMapPanel()">➤</div>
+
+        <!-- Div para o painel do mapa -->
+        <div class="map-panel">
+            <div class="map-container">
+                <!-- O mapa da API do Google será colocado aqui -->
+            </div>
+        </div>
+
+        <script src="funcionalidades.js"></script>
+
         <script src="produtoscarrinho.js"></script>
+
     </section>
 
     <footer>
         <hr class="linha-separadora" style="color: gray;">
         <div id="all_info">
             <div id="info-1">
-                <p>CNPJ n.º 03.007.331/0001-41 / Av. das Nações Unidas, 
+                <p>CNPJ n.º 03.007.331/0001-41 / Av. das Nações Unidas,
                     nº 3.003, Bonfim, Osasco/SP - CEP 06233-903 - empresa </p>
                 <h5>Copyright © 2024 Mercado Solidario LTDA.</h5>
             </div>

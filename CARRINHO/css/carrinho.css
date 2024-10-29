@@ -4,7 +4,7 @@ body {
     min-height: 100vh; /* Altura mínima do body para ocupar toda a tela */
     margin: 0;
     width: 100vw;
-    background-color: #e6d4e5;
+    background-color: white;
     font-family: Arial, sans-serif;
 }
 
