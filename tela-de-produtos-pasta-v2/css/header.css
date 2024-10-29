@@ -21,7 +21,7 @@ header {
     width: 20vw;
     height: 2.7vh;
     margin-top: 0.1vh;
-    padding: .5vh;
+    padding: .3vh;
 }
 .search-txt {
     border: none;
@@ -60,11 +60,6 @@ header {
     margin-right: 0.7vw;
     height: 5vh;
     width: 2vw;
-    transition: .2s ease;
-}
-.images-header:hover {
-    transform: scale(1.1);
-    cursor: pointer;
 }
 .end-header {
     display: flex;
