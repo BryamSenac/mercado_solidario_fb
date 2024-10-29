@@ -2,6 +2,7 @@ header {
     width: 100vw;
     background: linear-gradient( rgba(247, 210, 255, 0.555) 20vh, rgb(245, 194, 255, 0.555));
     border-bottom: 0.1vh solid rgb(247, 210, 255);
+    padding: 1vh;
 }
 .div-content {
     display: flex;
@@ -53,8 +54,8 @@ header {
 }
 
 #img-logo{
-    height: 10vh;
-    width: 15vh;
+    height: auto;
+    width: 6vh;
 }
 .images-header {
     margin-right: 0.7vw;
