@@ -9,7 +9,7 @@
 .product {
     width: 15vw;  /* Largura do cartão */
     height: 25vh; /* Altura do cartão */
-    background-color: #A792D1;
+    background-color: rgba(255, 255, 255, 0.705);
     border: 1px solid #A792D1;
     border-radius: 20px;
     padding: 5vh; /* Padding do cartão */
@@ -53,6 +53,7 @@
 }
 
 .product:hover {
+    box-shadow: #A792D1 0 5px 15px;
     transform: scale(1.05); /* Aumenta o tamanho do card em 5% */
     z-index: 1; /* Para garantir que o card fique acima dos outros */
 }
