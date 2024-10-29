@@ -54,3 +54,9 @@ header {
     height: 5vh;
     width: 2vw;
 }
+
+img-logo {
+    min-width: 10vw;
+    min-height: 14vh;
+    margin-bottom: ;
+}
