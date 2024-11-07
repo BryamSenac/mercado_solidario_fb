@@ -1,12 +1,12 @@
-@import url('header.css');
-@import url('footer.css');
-@import url('section.css');
+@import url('./../header.css');
+@import url('./../footer.css');
+@import url('./section.css');
 @import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 body {
     margin: 0;
-    height: 220vh;
+    height: max-content;
 }
 
 .linha-separadora {

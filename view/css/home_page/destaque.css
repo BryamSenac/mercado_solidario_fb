@@ -1,0 +1,9 @@
+#destaques {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    gap: 3vw; /* Espaçamento reduzido entre os cartões */
+    height: max-content;
+    justify-content: center; /* Centraliza as colunas */
+    margin: 3vh 0 15vh 0;
+}

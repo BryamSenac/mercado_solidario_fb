@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/produto/produto.css">
+    <script type="module" src="./../js/produto/script.js" defer></script>
+    <title>Mercado Solidário</title>
+</head>
+<body>
+    <header>
+        <div class="div-content">    
+            <div class="div-header-logo">
+                <img src="./../../assets/img/logo.png" alt="" id="img-logo">
+            </div>
+        <div class="barra-de-pesquisa-buttons">
+            <div class="div-barra-pesquisa">
+                <div class="search-row">
+                    <input type="text" class="search-txt" placeholder="Buscar">
+                </div>
+                    <div class="button-row">
+                        <button class="seleções-barra-de-pesquisa">Campanhas</button>
+                            <button class="seleções-barra-de-pesquisa">Supermercado</button>
+                                <button class="seleções-barra-de-pesquisa">Moda</button>
+                    </div>
+            </div>
+        </div>
+            <div class="end-header">
+                <img src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png" alt="" class="images-header">
+                <img src="https://static.vecteezy.com/system/resources/previews/016/314/413/non_2x/shopping-cart-free-png.png" alt="" class="images-header">
+            </div>
+        </div>
+    </header>
+    
+    <section>
+        <div class="container-product">
+            <div id="images">
+            </div>
+            <div id="main_img">
+                <img>
+            </div>
+            <div id="main_info">
+                <h1 id="title-product">THE M2. </h1>
+                <div id="datas-reservar">
+                    <div id="datas">
+                        <h6>Datas Disponíveis</h6>
+                        <p>31/02/2023 a 25/02/2024</p>
+                        <button class="btn-entrega button-grow">Outras Formas de Entrega</button>
+                    </div>
+                    <div id="reservar">
+                        <button class="btn-reservar button-grow">Reservar</button>
+                    </div>
+                </div>
+                <div id="desc-product">
+                    <p id="about_product">Sobre o Produto</p>
+                    <p>Descrição completa do produto</p>
+                </div>
+                <br>
+                <button id="btn_ficha" class="button-grow" onclick="document.getElementById('title_ficha').scrollIntoView({ behavior: 'smooth' })">Ficha do Produto</button>
+            </div>
+        </div>
+        <div class="content-product">
+            <div class="title_similar">
+                <hr class="linha-separadora">
+                    <h1>Produtos Semelhantes</h1>
+                <hr class="linha-separadora">
+            </div>    
+            
+            <div id="similar_products">
+            </div>
+
+            <div id="ficha_product">
+                <div id="title_ficha">
+                    <h2>Ficha do Produto</h2>
+                </div>
+
+                <div id="content_ficha">
+                    <div class="especifications">
+                        <h3>Mecânica</h3>
+                    </div>
+                    <hr class="linha-separadora linha-ficha">
+                    <div class="especifications">
+                        <h3>Dimensões</h3>
+                    </div>
+                    <hr class="linha-separadora linha-ficha">
+                    <div class="especifications">
+                        <h3>Opcionais</h3>
+                    </div>
+                    <hr class="linha-separadora linha-ficha">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <hr class="linha-separadora" style="color: gray;">
+        <div id="all_info">
+            <div id="info-1">
+                <p>CNPJ n.º 03.007.331/0001-41 / Av. das Nações Unidas, 
+                    nº 3.003, Bonfim, Osasco/SP - CEP 06233-903 - empresa </p>
+                <h5>Copyright © 2024 Mercado Solidario LTDA.</h5>
+            </div>
+            <div id="info-2">
+                <h4>Trabalhe Conosco</h4>
+                <h4>Contato</h4>
+                <h4>Termos e Condições</h4>
+            </div>
+            <div id="info-3">
+                <h4>Acessibilidade</h4>
+                <h4>Privacidade</h4>
+                <h4>Seguros</h4>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

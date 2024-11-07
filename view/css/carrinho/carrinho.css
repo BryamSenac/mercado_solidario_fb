@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Altura mínima do body para ocupar toda a tela */
+    margin: 0;
+    width: 100vw;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    gap: 2vw;
+    max-width: 90vw;
+    margin: 10vh auto;
+    flex: 1; /* Faz com que o container ocupe o espaço disponível */
+}
+section{
+    margin: 10vh 0 20vh;
+}
+
+
+.product {
+    width: 15vw;             /* Largura do cartão */
+    height: 27vh;            /* Altura do cartão */
+    background-color: #A792D1;
+    border: 1px solid #A792D1;
+    border-radius: 20px;
+    padding: 5vh;            /* Padding do cartão */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-left: 14vw;       /* Sem margens para evitar espaçamento indesejado */
+    transition: transform 0.3s ease;
+}
+
+.product img {
+    min-width: 10vw;
+    min-height: 15vh;
+    max-width: 15vw;
+    max-height: 15vh;
+
+}
+
+.product h2 {
+    font-size: 1.2vw;
+    margin: 2px 0;
+}
+
+.product p {
+    color: #020202;
+}
+
+
+
+.nav-buttons {
+    width: 23vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.nav-buttons button {
+    top: 8vw;
+    width: 2vw;
+    height: 4vh;
+    
+}
+
+.prev {
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 5vh;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 2vw;
+    height: 4vh;
+}
+
+.next {
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 5vh;
+    margin-left: 13vw;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 2vw;
+    height: 4vh;
+
+}
+
+.nav-buttons button:hover {
+    background-color: #8000b3;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    /* Aumenta o tamanho do card em 5% */
+    z-index: 1;
+    /* Para garantir que o card fique acima dos outros */
+}
+
+/* Estilização do botão de contato */
+.contact-button {
+
+    padding: 8px 12px;
+    background-color: #7a048a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10vw;
+    /* Largura do botão */
+    margin-top: 3vh;
+}
+
+.contact-button:hover {
+    background-color: #390247;
+    /* Cor ao passar o mouse */
+}

@@ -1,0 +1,61 @@
+#banners {
+    width: 400vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0vw;
+    top: 12vh;
+    transition: all 0.3s ease-in-out;
+}
+
+.banner {
+    width: 100vw;
+    height: 38vh;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+}
+
+#btn_banners {
+    width: 16vw;
+    height: 6vh;
+
+    position: absolute;
+    left: 42vw;
+    top: 40vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn_banner {
+    border: none;
+    width: 8vw;
+    margin: 0 1vh;
+    height: 2vh;
+    border-radius: 1vh;
+    background-color: #A792D1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn_banner:hover {
+    cursor: pointer;
+    background-color: rgb(255,129,255);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn_banner:focus, .btn_banner:active {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 10px rgba(33, 150, 243, 0);
+}
+
+#titulo1{
+    color: aliceblue;
+    margin-left: 1vw;
+} 
