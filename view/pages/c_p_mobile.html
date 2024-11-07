@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/layout/section_layout.css">
+    <script type="module" src="./../js/cadastro.js" defer></script>
+    <title>Cadastro de Produto</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div id="container_logo">
+                <div id="logo">
+                    <img src="https://cdn-icons-png.flaticon.com/512/7782/7782326.png" alt="logo">
+                </div>
+            </div>    
+            <form>
+                <label for="name">Nome Completo (Doador)</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" name="endereco" required>
+
+                <label for="phone">Número de Celular</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required placeholder="XX-XXXXX-XXXX" required>                
+                
+                <hr>
+
+                <label for="name_product">Nome do Produto</label>
+                <input type="text" id="name_product" name="name_product" required>
+                
+                <label for="delivery-date">Data de Entrega</label>
+                <input type="date" id="delivery-date" name="delivery-date" required>
+
+                <label for="photos">Adicionar Fotos</label>
+                <input type="file" id="photos" name="photos" multiple required>
+                
+                <label for="description">Descrição</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+                
+                <label for="dimensions">Dimensões (cm)</label>
+                <input type="text" id="dimensions" name="dimensions" required>
+                
+                <label for="optional-info">Informações Opcionais</label>
+                <textarea id="optional-info" name="optional-info" rows="2" class="optional"></textarea>
+                
+                <div id="buttons_save">
+                    <button type="button" class="button" onclick="alert('Cadastro Cancelado')">Cancelar</button>
+                    <button type="submit" class="button">enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>    
+</body>
+</html>
+    
