@@ -6,7 +6,7 @@ import { criarBanner } from "./criar_banner.js";
 window.trocarBanner = trocarBanner;
 
 document.addEventListener('DOMContentLoaded', () => {
+    initializeProducts();
     criarDestaques();
     criarBanner();
-    initializeProducts();
 });

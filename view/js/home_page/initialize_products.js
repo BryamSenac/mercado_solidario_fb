@@ -54,7 +54,6 @@ export function criarCartao(element, index, db) {
     contactButton.className = 'contact-button';
     contactButton.textContent = 'Contato';
     contactButton.onclick = () => alert(`Entrar em contato sobre ${title}`); // Exemplo de ação
-
     
     // Montar a estrutura
     navButtons.appendChild(prevButton);
@@ -64,4 +63,5 @@ export function criarCartao(element, index, db) {
     element.appendChild(descriptionElement);
     element.appendChild(navButtons);
     element.appendChild(contactButton);
+
 }
