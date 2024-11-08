@@ -129,3 +129,30 @@ section {
     background-color: #390247;
     /* Cor ao passar o mouse */
 }
+
+.delete-button {
+    margin-left: 7.5vw;
+    margin-bottom:32vh;
+    background-color: red; /* Cor de fundo vermelha */
+    color: white;          /* Cor do texto em branco */
+    font-weight: bold;     /* Texto em negrito */
+    border: none;          /* Remover borda */
+    border-radius: 4px;    /* Bordas arredondadas */
+    cursor: pointer;      /* Cursor de mão ao passar o mouse */
+    width: 3vw;           /* Largura do botão igual ao botão de contato */
+    margin-top: 2vh;       /* Espaçamento superior para dar uma distância */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+.delete-button:hover {
+    background-color: darkred; /* Muda para um tom mais escuro de vermelho ao passar o mouse */
+}
+
+/* Para garantir que o botão de Excluir fique na parte inferior do cartão */
+.product .delete-button {
+    margin-top: 1vh; /* Ajusta a margem do botão de excluir */
+    position: absolute;
+    bottom: 10px; /* Coloca o botão no fundo do cartão */
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza o botão horizontalmente */
+}

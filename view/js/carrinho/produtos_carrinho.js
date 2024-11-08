@@ -6,7 +6,7 @@ export function initializeProducts() {
     productElements.forEach((productElement, index) => {
 
         const { title, description, images } = products_carrinho[index];
-        
+
         // Limpa o conteúdo anterior
         productElement.innerHTML = '';
 
@@ -42,7 +42,15 @@ export function initializeProducts() {
         contactButton.textContent = 'Contato';
         contactButton.onclick = () => alert(`Entrar em contato sobre ${title}`);
 
-        productElement.onclick="window.location.href = './produto.html'"
+        const deleteButton = document.createElement('button');
+        deleteButton.className = 'delete-button';
+        deleteButton.textContent = 'Excluir';
+        deleteButton.onclick = () => removeProduct(productElement, index);
+
+        
+
+
+        productElement.onclick = "window.location.href = './produto.html'"
 
         // Montar a estrutura
         navButtons.appendChild(prevButton);
@@ -52,14 +60,21 @@ export function initializeProducts() {
         productElement.appendChild(descriptionElement);
         productElement.appendChild(navButtons);
         productElement.appendChild(contactButton);
+        productElement.appendChild(deleteButton);  
     });
+}
+
+function removeProduct(productElement, index) {
+    productElement.remove();
+    products.splice(index, 1);
+
+    initializeProducts();
 }
 
 function changeImage(direction, productIndex) {
     const productImage = document.querySelectorAll('.product-image')[productIndex];
     const currentImageSrc = productImage.src;
-
-    const images = products[productIndex].images;
+    const images = products_carrinho[productIndex].images;
     let newIndex = images.indexOf(currentImageSrc) + direction;
 
     if (newIndex < 0) newIndex = images.length - 1;
@@ -72,6 +87,6 @@ function changeImage(direction, productIndex) {
 }
 
 
-document.addEventListener('DOMContentLoaded',initializeProducts);
+document.addEventListener('DOMContentLoaded', initializeProducts);
 // Inicializa os produtos ao carregar a página
 initializeProducts();
