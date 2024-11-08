@@ -4,7 +4,7 @@ export function criarImg() {
     const images = document.getElementById('images')
     const mainImg = document.querySelector('#main_img img')
     mainImg.src = imgs[0]
-    for (let i=0; i<=5; i++) {
+    for (let i=0; i< imgs.length; i++) {
         let divImg = document.createElement('div')
         divImg.className = 'img_secondary'
         let img = document.createElement('img')

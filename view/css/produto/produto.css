@@ -37,4 +37,15 @@ body {
 
 .similiar_product {
     height: 80%;
+    font-family: 'Supermercado One', 'Courier New', Courier, monospace;
+}
+
+.similiar_product img {
+    margin-bottom: 5vh;
+}
+
+.contact-button {
+    width: 10vw;
+    font-size: 16px;
+    padding: 0.9rem;
 }
