@@ -40,14 +40,16 @@ export function initializeProducts() {
         const contactButton = document.createElement('button');
         contactButton.className = 'contact-button';
         contactButton.textContent = 'Contato';
-        contactButton.onclick = () => alert(`Entrar em contato sobre ${title}`);
+        contactButton.onclick = () => {
+            window.location.href = './produto.html'
+        };
 
         const deleteButton = document.createElement('button');
         deleteButton.className = 'delete-button';
         deleteButton.textContent = 'Excluir';
         deleteButton.onclick = () => removeProduct(productElement, index);
 
-        
+
 
 
         productElement.onclick = "window.location.href = './produto.html'"
@@ -60,7 +62,7 @@ export function initializeProducts() {
         productElement.appendChild(descriptionElement);
         productElement.appendChild(navButtons);
         productElement.appendChild(contactButton);
-        productElement.appendChild(deleteButton);  
+        productElement.appendChild(deleteButton);
     });
 }
 

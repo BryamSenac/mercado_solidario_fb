@@ -8,9 +8,6 @@ export function initializeProducts() {
         product.className = 'product'
         product.setAttribute('data-index', `${j}`);
         campanhas.appendChild(product)
-        product.addEventListener('click', ()=>{
-            window.location.href = './produto.html'
-        });
     }
 
     const productElements = document.querySelectorAll('.product');
@@ -53,7 +50,9 @@ export function criarCartao(element, index, db) {
     const contactButton = document.createElement('button');
     contactButton.className = 'contact-button';
     contactButton.textContent = 'Contato';
-    contactButton.onclick = () => alert(`Entrar em contato sobre ${title}`); // Exemplo de ação
+    contactButton.onclick = () =>  {
+        window.location.href = './produto.html'
+ };
     
     // Montar a estrutura
     navButtons.appendChild(prevButton);
