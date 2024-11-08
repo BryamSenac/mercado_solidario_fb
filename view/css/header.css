@@ -2,9 +2,8 @@ header {
     height: 10vh;
     width: 100vw;
     background-color: #A792D1;
-    border: none;
-    border-radius:10vh;
 }
+
 .div-content {
     display: flex;
     justify-content: space-around;
