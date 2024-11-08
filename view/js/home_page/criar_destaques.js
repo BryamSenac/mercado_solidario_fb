@@ -6,6 +6,9 @@ export function criarDestaques() {
     for (let i=0; i<destaques.length; i++) {
         let product = document.createElement('div')
         product.classList.add('product', 'destaque')
+        product.addEventListener('click', ()=>{
+            window.location.href = './produto.html'
+        });
         product.setAttribute('data-index', `${i}`);
         container_destaques.appendChild(product)
     }
