@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url(/usuarios_ongs/img/u_o.jpg);
+    background-image: url('/usuarios_ongs/img/u_o.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
