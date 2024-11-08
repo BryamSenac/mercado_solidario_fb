@@ -1,34 +1,34 @@
 export const destaques = [
     {
-        title: "Campanha Boa 1",
-        description: "Descrição breve do produto 1.",
+        title: "Campanha do agasalho",
+        description: "Campanha de arrecadação de agasalhos para pessoas em situação de vulnerabilidade.",
         images: [
-            "https://via.placeholder.com/150/FF5733", // Imagem 1
-            "https://via.placeholder.com/150/C70039"  // Imagem 2
+            "https://via.placeholder.com/150/008000", // Imagem 1
+            "https://via.placeholder.com/150/0000FF"  // Imagem 2
         ],
     },
     {
-        title: "Campanha Boa 2",
-        description: "Descrição breve do produto 2.",
+        title: "Doação de livros",
+        description: "Campanha para doação de livros para bibliotecas comunitárias e escolas.",
         images: [
-            "https://via.placeholder.com/150/FFC300", // Imagem 1
-            "https://via.placeholder.com/150/DAF7A6"  // Imagem 2
+            "https://via.placeholder.com/150/FF6347", // Imagem 1
+            "https://via.placeholder.com/150/4682B4"  // Imagem 2
         ],
     },
     {
-        title: "Campanha Boa 3",
-        description: "Descrição breve do produto 3.",
+        title: "SOS Rio Grande do Sul",
+        description: "Ajuda para as vítimas de desastres naturais no Rio Grande do Sul.",
         images: [
-            "https://via.placeholder.com/150/581845", // Imagem 1
-            "https://via.placeholder.com/150/900C3F"  // Imagem 2
+            "https://via.placeholder.com/150/FFA500", // Imagem 1
+            "https://via.placeholder.com/150/DA70D6"  // Imagem 2
         ],
     },
     {
-        title: "Campanha Boa 4",
-        description: "Descrição breve do produto 4.",
+        title: "Brinquedos Do Bem",
+        description: "Campanha de doação de brinquedos para crianças em situação de vulnerabilidade.",
         images: [
-            "https://via.placeholder.com/150/FF5733", // Imagem 1
-            "https://via.placeholder.com/150/C70039"  // Imagem 2
+            "https://via.placeholder.com/150/40E0D0", // Imagem 1
+            "https://via.placeholder.com/150/9370DB"  // Imagem 2
         ],
     },
-]
+];
