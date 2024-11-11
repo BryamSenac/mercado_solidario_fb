@@ -8,7 +8,7 @@ export const products = [
     },
     {
         title: "Relógio Inteligente",
-        description: "possui monitor de frequência cardíaca.",
+        description: "relógio de pulso computadorizado.",
         images: [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSH8SIlxZjt6CN_bsVwzaLt1JJB44C1ZbiHA&s", // Imagem 1
         ],

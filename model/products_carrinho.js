@@ -1,7 +1,7 @@
 export const products_carrinho= [
     {
         title: "Camisetas",
-        description: "Descrição breve das Camisetas.",
+        description: "Camisetas básicas.",
         images: [
             "https://imgcentauro-a.akamaihd.net/1366x1366/M0V6BY11.jpg", // Imagem 1
             "https://cdn.sistemawbuy.com.br/arquivos/13ef42c661356c967c0cee1859873499/produtos/65a9930f70caf/preta-costas-65de22e61e597.jpg"  // Imagem 2
@@ -9,7 +9,7 @@ export const products_carrinho= [
     },
     {
         title: "Bobo Jaca",
-        description: "Descrição breve da Bobo Jaca.",
+        description: "Jaqueta Preta.",
         images: [
             "https://images.tcdn.com.br/img/img_prod/698738/copia_jaqueta_masculina_puffer_nylon_preta_747_1_378b31a1d36e3a94d141494c066d7f39.jpg", // Imagem 1
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDzFAqLhxMTBX6_5Urpjptbry40HGCTcJVoPFZ83sXjm8CPTqVs-UaDQFZxkEQzWTMMVE&usqp=CAU"  // Imagem 2
@@ -17,7 +17,7 @@ export const products_carrinho= [
     },
     {
         title: "Jaqueta feminina",
-        description: "Descrição breve da Jaqueta feminina p",
+        description: "Jaqueta feminina p",
         images: [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcW42Kbm92bsIdSaN7VYu5EbzFxWMJUY5rAw&s", // Imagem 1
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5g2pHhx5IBX17lrp0dy5ZaVzGOLBLAIXeb5lBP-XHdnTZ2R5Yf2wyJ8iwxsk2Z-hxYEQ&usqp=CAU"  // Imagem 2
@@ -25,7 +25,7 @@ export const products_carrinho= [
     },
     {
         title: "Fantasia Dinossauro",
-        description: "Descrição breve da fantasia",
+        description: "fantasia de dinossauro.",
         images: [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpp9UwUwitSz_HoNRneF0gb94ADUL8iOdcHQ&s", // Imagem 1
             "https://images.tcdn.com.br/img/img_prod/1144741/fantasia_t_rex_inflavel_365_1_844f0e7fc7ea7521214e6451419e9a76.jpg"  // Imagem 2
@@ -33,7 +33,7 @@ export const products_carrinho= [
     },
     {
         title: "Kit 3 calça jeans",
-        description: "Descrição breve do Kit 3 calça jeans.",
+        description: "Kit com 3 calça jeans.",
         images: [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSEZDy1nxoaOUASzQ9Psa7DlQ3_m05YEJqgg&s", // Imagem 1
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREl9CnOPyKHP3-VpXOr1J5i2YwnW6YghcjGTnBzIQFdUAsdwsk9PoGCiLMLq_UGmVbcak&usqp=CAU"  // Imagem 2
@@ -41,7 +41,7 @@ export const products_carrinho= [
     },
     {
         title: "Tênis",
-        description: "Descrição breve do Tênis.",
+        description: "Tênis padrão branco.",
         images: [
             "https://cdnv2.moovin.com.br/maryjane/imagens/produtos/det/tenis-m99-feminino-6a8b3592e4da5c765c122c6ca63e6380.jpg", // Imagem 1
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyXSAXADK1GOqOGfhE2aK5K9emAnP4m180yYZ0K3nW79ymu1yRLBFU-3HZRsoY43qMgTQ&usqp=CAU"  // Imagem 2
@@ -57,7 +57,7 @@ export const products_carrinho= [
     },
     {
         title: "Camiseta",
-        description: "Descrição breve da camiseta .",
+        description: "camiseta slim padrão.",
         images: [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuwsgzj-lhVFrSPIG2jxpnIN6sIJ_VvtvBDg&s", // Imagem 1
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHnL6fqqaMMHxY2kwC3aXsraFcI2k43f1orSji9hibPzd5UYHHVGJqhCmBzR8-GB0_GoU&usqp=CAU"  // Imagem 2
@@ -65,7 +65,7 @@ export const products_carrinho= [
     },
     {
         title: "Camiseta streetwear",
-        description: "Descrição breve delas.",
+        description: "Big sized camiseta preta.",
         images: [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_CK4CTUR7BE-LeW8HSaW8M-CXb5n56bo4AA&s", // Imagem 1
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIwIddwIv8tPcEVmubtPPfsiuzpsW-4zTPwhFeiT7n8Zc25-z87BY_sBaWEGnoKu7mPgE&usqp=CAU", // Imagem 2
@@ -75,7 +75,7 @@ export const products_carrinho= [
 
     {
         title: "Kit de camisetas basica",
-        description: "Descrição breve do Kit de 3 camisetas.",
+        description: " Kit de 3 camisetas básicas.",
         images: [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjads1oUhcrYpIGfJiVJSfqY97onJXfOVxnQ&s", // Imagem 1
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE2_2g1Mh5KM-pfnSoQw_BzVEsgZM7rLRftaii7arXxKsMD1Eo2XIPWmbNdn86M7UppuY&usqp=CAU", // Imagem 2
@@ -84,7 +84,7 @@ export const products_carrinho= [
     },
     {
         title: "3 pares de meias",
-        description: "meias.",
+        description: "meias de cor básica.",
         images: [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9CbXWmRvofx0GvShkXCaRHZCN4JOixKMkng&s", // Imagem 1
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShJ5FoGHf9d7Jw1IbH4h2ay9LeqgwwMtBmsGK_sHBajgFa0JCcHRftwI-e3pz_-X4HCfg&usqp=CAU", // Imagem 2
