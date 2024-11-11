@@ -27,8 +27,8 @@ export const destaques = [
         title: "Brinquedos Do Bem",
         description: "Doação de brinquedos.",
         images: [
-            "https://www.otaboanense.com.br/wp-content/uploads/2019/09/doe_brinquedos_shopping_tab.jpg", // Imagem 1
-            "https://via.placeholder.com/150/9370DB"  // Imagem 2
+            "https://www.ciser.com.br/userfiles/noticias/mundo-ciser-arrecadacao-brinquedos.jpg", // Imagem 1
+            
         ],
     },
 ];
