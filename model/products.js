@@ -14,10 +14,10 @@ export const products = [
         ],
     },
     {
-        title: "Jaqueta de Couro",
-        description: "Jaqueta de couro sintético.",
+        title: "Bobojack",
+        description: "Fantasia, boneco da Michelin .",
         images: [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDWT7K7HaasH42s1FiDh54ck2zX5CHba7ekbG0J3PHvKaJy5fT6gL7Gl_djnWkeMfyh7U&usqp=CAU", // Imagem 
+            "https://images.tcdn.com.br/img/img_prod/698738/copia_jaqueta_masculina_puffer_nylon_preta_747_1_378b31a1d36e3a94d141494c066d7f39.jpg", // Imagem 
         ],
     },
     {
